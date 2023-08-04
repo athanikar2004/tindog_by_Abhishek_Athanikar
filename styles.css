@@ -1,0 +1,156 @@
+body{
+  font-family: "Poppins",sans-serif;
+}
+#title{
+  background-color: #FF4C68;
+
+}
+#head {
+  font-family:  'Ubuntu', sans-serif;
+  font-size: 2rem;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+p{
+  font-family: 'Lora', serif;
+  color: #8f8f8f;
+  line-height: 1.5;
+
+}
+.btn{
+ font-family: "Poppins",sans-serif;
+}
+.navbar{
+
+  padding: 0 0 3.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+.download-btn{
+  margin:5%  12px 5% 0;
+}
+.rotation-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 70px;
+}
+#features{
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+#image1{
+  margin: 0 auto 15px 8px;
+  background-color: white;
+  color: #ef8172;
+}
+#image1:hover{
+  color:  #FF4C68;
+}
+.row{
+  margin: 50px auto 50px auto;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  line-height: 1.5;
+
+}
+.carousel-inner{
+  padding: 5% 17%;
+}
+.testimonials-image{
+  margin: 20px;
+  border-radius: 100%;
+  width: 10%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 100px  ;
+
+}
+.press-img{
+  width: 15%;
+  margin: 15px;
+}
+#pricing{
+  padding: 100px;
+  text-align:center;
+}
+
+.p1{
+  font-family: 'Gupter', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+  background-color: #FF4C68;
+  color:white;
+  text-align: center;
+  font-family: 'Montserrat-black';
+  margin: auto;
+  padding: 100px;
+
+}
+.bottom{
+    padding: 0px 150px 0px 150px;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+@media (max-width:992px) {
+  #title{
+    text-align: center;
+  }
+  .rotation-img{
+    position : static;
+    transform: rotate(0);
+
+  }
+
+}
+#footer{
+  color: #1f1f1f;
+  background-color: #fff;
+  text-align: center;
+  margin: 100px auto 200px auto;
+}
+.social-icon{
+  margin: 20px 10px;
+}
